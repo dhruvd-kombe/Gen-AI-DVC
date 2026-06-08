@@ -12,6 +12,8 @@ df = pd.DataFrame(data)
 new_row = {'Name' : 'Sakshi' , 'Age' : 20 , 'City' : 'Surat'}
 df.loc[len(df.index)] = new_row
 
+new_row1 = {'Name' : 'Sakshi1' , 'Age' : 30 , 'City' : 'Tapi'}
+df.loc[len(df.index)] = new_row1
 
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
